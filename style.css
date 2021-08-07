@@ -92,7 +92,7 @@ html {
     height: 800px;
     text-align: center;
     overflow: hidden;
-    background-color: darkkhaki
+    background-color: darkkhaki;
 }
 
 #chatbot {
@@ -100,7 +100,7 @@ html {
     height: 800px;
     text-align: center;
     overflow: hidden;
-    background-color: dodgerblue
+    background-color: dodgerblue;
 }
 
 #contact {
@@ -115,4 +115,16 @@ html {
     position: sticky;
     top: 0;
     z-index: 99999;
+}
+
+#pic1,
+#pic2 {
+    height: 500px;
+    border: 5px solid darkgreen;
+    transition: transform .2s;
+}
+
+#pic1:hover,
+#pic2:hover {
+    transform: scale(0.9);
 }
